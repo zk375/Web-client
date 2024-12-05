@@ -1,13 +1,32 @@
-.sal{ 
-    background-image: url(https://media.istockphoto.com/id/636885614/fr/photo/sauteur-en-hauteur-performant.jpg?s=612x612&w=0&k=20&c=DAgKw-m5yYqOqstkV7JDg8UJbij5BvvpJiEDn1yeYDk=);
-    height: 100vh; /* La section prend toute la hauteur de la fenêtre */
-    background-image: url('votre-image.jpg');
-    background-size: cover; /* Ajuste l'image pour qu'elle couvre tout l'espace */
-    background-repeat: no-repeat; /* Empêche la répétition de l'image */
-    background-position: center; /* Centre l'image dans le conteneur */
-    display: flex; /* Permet d'aligner du contenu */
-    align-items: center; /* Centre verticalement */
-    justify-content: center; /* Centre horizontalement */
-    color: white; /* Texte blanc */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+html{
+    background-color: white;
+    height: 100%;
+
 }
+
+body {
+        background-image: url('sal.jpg');
+        background-size: 1325px 750px;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
+        position: relative;
+        
+    }
+    
+
+    h1 {
+        color: white; /* Couleur du texte */
+        position: absolute; /* Permet de superposer le texte sur l'image */
+        top: 50%; /* Positionner à 50% du conteneur */
+        left: 50%; /* Positionner à 50% du conteneur */
+        transform: translate(-80%, -70%); /* Centrer exactement */
+        font-size: 4pc; /* Taille du texte */
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+
+
+
+
